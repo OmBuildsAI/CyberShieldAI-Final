@@ -1,0 +1,14 @@
+streamlit
+opencv-python-headless
+pyzbar
+Pillow
+numpy
+pandas
+qrcode
+requests
+validators
+python-dotenv
+scikit-learn
+imageio
+imageio-ffmpeg
+scipy
