@@ -57,9 +57,9 @@ st.markdown("""
 
 # Import utility functions
 try:
-    from utils.url_analyzer import check_phishing
-    from utils.qr_scanner import scan_qr_code
-    from utils.deepfake_check import detect_deepfake, detect_deepfake_video
+    from url_analyzer import check_phishing
+    from qr_scanner import scan_qr_code
+    from deepfake_check import detect_deepfake, detect_deepfake_video
 except ImportError as e:
     st.error(f"Error importing modules: {e}")
     st.info("Please make sure all utility files are properly set up.")
